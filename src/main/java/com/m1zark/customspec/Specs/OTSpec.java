@@ -37,7 +37,7 @@ public class OTSpec extends SpecValue<String> implements ISpecType {
     }
 
     @Override public SpecValue<String> clone() {
-        return new TextureSpec(this.value);
+        return new OTSpec(this.value);
     }
 
     @Override public OTSpec readFromNBT(NBTTagCompound nbt) {
