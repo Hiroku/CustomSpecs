@@ -47,8 +47,8 @@ repositories {
 }
 
 dependencies {
-    compile 'org.spongepowered:spongeapi:7.+'
-    compile 'reforged:server:7.0.3@Pixelmon-1.12.2-7.0.3-server.jar'
+    compile 'org.spongepowered:spongeapi:7.1.0-SNAPSHOT'
+    compile 'reforged:server:7.1.0@Pixelmon-1.12.2-7.1.0-server.jar'
 }
 
 processResources {
