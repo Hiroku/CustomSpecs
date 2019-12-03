@@ -21,6 +21,10 @@ version = modVersion
 group = modGroup
 archivesBaseName = modBaseName
 
+compileJava.options.encoding = "UTF-8"
+//Fix forges AT breaking everything because the AT checker is stupid
+[tasks.deobfMcMCP, tasks.deobfMcSRG].each { it.failOnAtError = false }
+
 minecraft {
     version = project.forgeVersion
     runDir = "run"
@@ -48,7 +52,7 @@ repositories {
 
 dependencies {
     compile 'org.spongepowered:spongeapi:7.1.0-SNAPSHOT'
-    compile 'reforged:server:7.1.0@Pixelmon-1.12.2-7.1.0-server.jar'
+    //compile 'reforged:server:7.1.0@Pixelmon-1.12.2-7.1.0-server.jar'
 }
 
 processResources {

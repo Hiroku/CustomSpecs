@@ -20,7 +20,7 @@ import com.m1zark.customspec.specs.UncatchableFlag;
 import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec;
 
-@Plugin(id = "customspec", name = "CustomSpec", version = "1.4.2", description = "Adds in new pokespecs", authors = "m1zark")
+@Plugin(id = "customspec", name = "CustomSpec", version = "1.4.3", description = "Adds in new pokespecs", authors = "m1zark")
 public class Customspec {
 	public static Customspec instance;
 	
